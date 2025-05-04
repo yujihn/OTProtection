@@ -130,10 +130,3 @@ curl -X POST http://localhost:8080/otp/validate \
 После запуска приложения, документация API доступна по адресу:
 - Swagger UI: `http://localhost:8080/swagger-ui.html`
 - OpenAPI спецификация: `http://localhost:8080/v3/api-docs`
-
-## Безопасность
-
-- Все пароли хранятся в зашифрованном виде
-- Используется JWT для аутентификации
-- Реализована защита от брутфорса
-- Все API endpoints защищены с помощью Spring Security
