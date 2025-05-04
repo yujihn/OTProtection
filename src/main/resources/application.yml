@@ -42,7 +42,7 @@ logging:
   level:
     root: info
     org.springframework.web: info
-    com.fladx: debug
+    com.mHide: debug
   file:
     name: logs/application.log
     max-size: 10MB
@@ -69,8 +69,7 @@ otp:
 
 telegram:
   bot:
-    token: 7818404031:AAF6LkBSDJXKniQTKE0UW1qyM2Sk3gdrWT0
-    chat-id: 123456789
+    token: 7765985917:AAHjOGosDKl4z98mrNrkljGXfr3pATaSExY
     enable: true
 
 smpp:
